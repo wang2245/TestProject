@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4TestPage", "IdentityServer4TestPage\IdentityServer4TestPage.csproj", "{56AE094B-F8D0-4949-ABEA-AC6922FB6A65}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "VueJsWebAppTest", "VueJsWebAppTest\VueJsWebAppTest.njsproj", "{EB895FF1-CCB6-4533-AE37-26083065E2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56AE094B-F8D0-4949-ABEA-AC6922FB6A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AE094B-F8D0-4949-ABEA-AC6922FB6A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AE094B-F8D0-4949-ABEA-AC6922FB6A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AE094B-F8D0-4949-ABEA-AC6922FB6A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB895FF1-CCB6-4533-AE37-26083065E2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB895FF1-CCB6-4533-AE37-26083065E2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB895FF1-CCB6-4533-AE37-26083065E2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB895FF1-CCB6-4533-AE37-26083065E2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFDB6CCF-FD3D-499B-A98A-ED48BF989524}
+	EndGlobalSection
+EndGlobal
