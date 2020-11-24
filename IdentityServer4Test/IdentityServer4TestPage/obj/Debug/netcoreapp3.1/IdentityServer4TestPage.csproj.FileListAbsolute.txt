@@ -2,7 +2,6 @@ E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcore
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\appsettings.json
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\IdentityServer4TestPage.exe
-E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.csprojAssemblyReference.cache
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.AssemblyInfoInputs.cache
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.AssemblyInfo.cs
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.RazorTargetAssemblyInfo.cache
@@ -140,9 +139,6 @@ E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcore
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.csproj.CoreCompileInputs.cache
-E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.MvcApplicationPartsAssemblyInfo.cs
-E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.MvcApplicationPartsAssemblyInfo.cache
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\libman.json
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
@@ -163,3 +159,13 @@ E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcore
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.RazorTargetAssemblyInfo.cs
 E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.Views.pdb
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\IdentityModel.dll
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.csprojAssemblyReference.cache
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.csproj.CoreCompileInputs.cache
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.MvcApplicationPartsAssemblyInfo.cs
+E:\GitLearnProject\IdentityServer4Test\IdentityServer4TestPage\obj\Debug\netcoreapp3.1\IdentityServer4TestPage.MvcApplicationPartsAssemblyInfo.cache

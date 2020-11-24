@@ -4,7 +4,7 @@
     Layout = "~/Pages/Shared/_LayoutMainPage.cshtml";
 }
 
-<form id="form1" class="d-flex justify-content-center" style="margin-top:50px">
+<form id="form1" method="post" class="d-flex justify-content-center" style="margin-top:50px">
     <div class="card" style="width:30rem">
         <div class="card-body">
             <div class="form-group">
@@ -16,8 +16,8 @@
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password">
             </div>
-            <button id="login" name="login" type="submit" class="btn btn-primary">Submit</button>
-            <button id="register" name="register" type="button" class="btn btn-link">Register</button>
+            <button id="login" name="button" type="submit" value="login" class="btn btn-primary">Login</button>
+            <button id="register" name="button" type="button" value="register" class="btn btn-link">Register</button>
         </div>
     </div>
 </form>
