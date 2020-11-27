@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4TestPage", "
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "VueJsWebAppTest", "VueJsWebAppTest\VueJsWebAppTest.njsproj", "{EB895FF1-CCB6-4533-AE37-26083065E2BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{75EB6B59-A6EC-4206-B9D3-107935A5C730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EB895FF1-CCB6-4533-AE37-26083065E2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB895FF1-CCB6-4533-AE37-26083065E2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB895FF1-CCB6-4533-AE37-26083065E2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EB6B59-A6EC-4206-B9D3-107935A5C730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EB6B59-A6EC-4206-B9D3-107935A5C730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EB6B59-A6EC-4206-B9D3-107935A5C730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EB6B59-A6EC-4206-B9D3-107935A5C730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

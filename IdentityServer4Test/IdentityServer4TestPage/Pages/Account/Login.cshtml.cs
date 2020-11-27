@@ -27,6 +27,9 @@ namespace IdentityServer4TestPage.Pages.Account
         private readonly IAuthenticationSchemeProvider _schemeProvider;
         private readonly IEventService _events;
 
+        public LoginInputModel LoginInputModel { get; set; }
+        public LoginViewModel LoginViewModel { get; set; }
+
         public LoginModel(UserManager<IdentityServer4TestPageUser> userManager,
             SignInManager<IdentityServer4TestPageUser> signInManager,
             IIdentityServerInteractionService interaction,
