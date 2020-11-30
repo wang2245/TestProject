@@ -1,3 +1,2 @@
-E:\GitLearnProject\IdentityServer4Test\VueJsWebAppTest\obj\Debug\VueJsWebAppTest.njsprojAssemblyReference.cache
 E:\GitLearnProject\IdentityServer4Test\VueJsWebAppTest\obj\Debug\VueJsWebAppTest.njsproj.CoreCompileInputs.cache
 E:\GitLearnProject\IdentityServer4Test\VueJsWebAppTest\bin\Microsoft.NodejsTools.WebRole.dll

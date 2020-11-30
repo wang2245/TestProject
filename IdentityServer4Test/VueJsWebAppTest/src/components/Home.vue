@@ -1,27 +1,6 @@
 <template>
     <el-container>
-        <el-header>
-            <el-row>
-                <el-col :span="3">&nbsp;</el-col>
-                <el-col :span="3">
-                    <div class="grid-content bg-purple">
-                        Test Logo
-                    </div>
-                </el-col>
-                <el-col :span="12">
-                    <div class="grid-content bg-purple-light">
-                        &nbsp;
-                    </div>
-                </el-col>
-                <el-col :span="3">
-                    <div class="grid-content bg-purple-light" style="text-align:right">
-                        <el-button type="text">Sign in</el-button>
-                        <el-button size="mini">Sign up</el-button>
-                    </div>
-                </el-col>
-                <el-col :span="3">&nbsp;</el-col>
-            </el-row>
-        </el-header>
+        <Header></Header>
 
 
         <el-main>
@@ -56,6 +35,9 @@
             return {
                 currentDate: new Date()
             };
+        },
+        components: {
+
         }
     };
 </script>

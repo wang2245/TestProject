@@ -48,6 +48,13 @@ namespace IdentityServer4TestPage
 
             services.AddAuthentication();
 
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.SignIn.RequireConfirmedEmail = false;
+                options.SignIn.RequireConfirmedAccount = false;
+                options.SignIn.RequireConfirmedPhoneNumber = false;
+            });
+
             //var builder = services.AddIdentityServer(options =>
             //{
             //});

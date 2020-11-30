@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using IdentityServer4.Services;
@@ -15,8 +16,8 @@ namespace IdentityServer4TestPage.Pages.Account
 {
     public class LoginModel : PageModel
     {
-        private readonly UserManager<IdentityServer4TestPageUser> _userManager;
-        private readonly SignInManager<IdentityServer4TestPageUser> _signInManager;
+        private readonly UserManager<IdentityServer4TestPageUser> UserManager;
+        private readonly SignInManager<IdentityServer4TestPageUser> SignInManager;
 
         /// <summary>
         /// Provide services be used by the user interface to communicate with IdentityServer.
@@ -37,8 +38,8 @@ namespace IdentityServer4TestPage.Pages.Account
             IAuthenticationSchemeProvider schemeProvider,
             IEventService events)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            this.UserManager = userManager;
+            this.SignInManager = signInManager;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
@@ -53,13 +54,31 @@ namespace IdentityServer4TestPage.Pages.Account
         public async Task<IActionResult> OnPostAsync(LoginInputModel model, string button)
         {
             //var context = await _interaction.GetAuthorizationContextAsync(model.ReturnUrl);
-            if (button != "login")
+            if (ModelState.IsValid)
             {
-                return Redirect(model.ReturnUrl);
+                if (button == "login")
+                {
+                    var result = await this.SignInManager.PasswordSignInAsync(model.UserName, model.Password, model.RememberLogin, lockoutOnFailure: false);
+                    if (result.Succeeded)
+                    {
+                        return Redirect(model.ReturnUrl);
+                    }
+                    if (result.IsLockedOut)
+                    {
+                        return Content("Lockout");
+                    }
+
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    return Page();
+                }
+                else
+                {
+                    return Redirect("~/");
+                }
             }
             else
             {
-                return Redirect("~/");
+                return Content("");
             }
         }
     }

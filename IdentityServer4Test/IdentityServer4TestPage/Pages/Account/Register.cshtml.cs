@@ -31,6 +31,11 @@ namespace IdentityServer4TestPage.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(RegisterViewModel registerViewModel, string returnUrl = null)
         {
+            if (string.IsNullOrEmpty(returnUrl))
+            {
+                returnUrl = "/Account/Login";
+            }
+
             if (ModelState.IsValid)
             {
                 var user = new IdentityServer4TestPageUser { UserName = registerViewModel.Email, Email = registerViewModel.Email };
