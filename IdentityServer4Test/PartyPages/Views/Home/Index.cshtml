@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutBootstrap.cshtml";
+}
+
+<div class="card" style="width:100%">
+    <div class="card-body">
+        <div class="row">
+            <div class="col col-lg-1 label-title-default">活动类型</div>
+            <div class="col-md-auto">
+                <span>亲子出游</span>
+                <span>社会实践</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-1" style="font-weight:bold;font-size:9pt">收费类型</div>
+            <div class="col-md-auto">
+                <span>收费</span>
+                <span>免费</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    @for (int i = 0; i < 5; i++)
+    {
+        <div class="card" style="width: 262px;margin-left:18px;margin-top:20px">
+            <a class="a" href="Party/Display" target="_blank">
+            <img style="width:260px;height:146px" src="https://img-qn.hudongba.com/upload/_oss/userposterimageimg/202008/12/21597240378084_posterimage2_10446.jpg" alt="抖音短视频赚钱9大套路，轻松月入过万" />
+                </a>
+            <div class="card-body">
+                <h5 class="list-item-title"><span class="badge badge-primary">精选</span>&nbsp;<a class="lable-link" href="Party/Display" target="_blank">抖音短视频赚钱9大套路，轻松月入过万</a></h5>
+                <p class="lable-content-default text-black-50">进行中</p>
+                <div class="clearfix">
+                    <span class="float-left label-content-default label-price">￥29.9</span>
+                    <span class="float-right label-content-default label-price">600人参加</span>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div id="pager" class="row" style="margin-top:50px;width:100%">
+    <nav aria-label="Page navigation example" style="width:100%">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
+
+<style>
+    .col-md-auto span {
+        font-size: 9pt;
+        margin-right: 20px;
+        top: -5px;
+        left: -20px;
+        position: relative
+    }
+</style>
+

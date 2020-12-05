@@ -18,11 +18,24 @@
             </div>
             <button id="login" name="button" type="submit" value="login" class="btn btn-primary">Login</button>
             <button id="register" name="button" type="button" value="register" class="btn btn-link">Register</button>
+            <div id="errorMessage" class="alert alert-danger" role="alert" style="margin-top:20px;display:none">
+                Invalid account or password!Please check and try again!
+            </div>
         </div>
     </div>
+
+    
+    
 </form>
 <script>
     $(function () {
+        @if (ViewData["LoginError"] != null && ViewData["LoginError"].ToString() == "InvalidLogin")
+        { 
+            <text>
+            $("#errorMessage").css("display", "");
+            </text>
+        }
+
         $("#register").on("click", function () {
             window.location.href = "/Account/Register";
         });

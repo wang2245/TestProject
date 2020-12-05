@@ -36,9 +36,17 @@
     <Content Include="src\components\Header.vue">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="src\components\Home.vue" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\components\LeftNav.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\Settings.vue">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\components\TopNav.vue">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="src\router.js">
       <SubType>Code</SubType>
     </Content>
@@ -52,12 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="babel.config.js" />
-    <Content Include="src\components\ProductDetail.vue">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="src\components\ProductList.vue">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="src\main.js" />
   </ItemGroup>
   <PropertyGroup>

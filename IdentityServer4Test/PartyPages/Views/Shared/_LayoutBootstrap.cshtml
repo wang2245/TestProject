@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/lib/bootstrap453/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery_3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="header" class="row" style="line-height:100px">
+            <div class="col-sm" style="text-align:left">
+                <img src="@Url.Content("~/img/weblogo.png")" />
+            </div>
+            <div class="col-sm">
+
+            </div>
+            <div class="col-sm" style="text-align:right">
+                <a href="" style="margin-right:20px">Sign in</a>
+                <a href="" class="border" style="padding:10px">Sign up</a>
+            </div>
+        </div>
+
+        <hr style="position:absolute;top:100px;left:0px;width:100%;border: 3px solid #16598d;" />
+
+        <div id="body" class="row" style="width:100%;padding-top:40px;">
+            @RenderBody()
+        </div>
+
+        <div id="footer" style="text-align:center">
+            <hr />
+            Just for test  @@@DateTime.Now.Year.ToString()
+            <br />
+            Ray Wong<a style="margin-left:10px" href="mailto:wang2245@gmail.com">wang2245@gmail.com</a>
+        </div>
+    </div>
+</body>
+</html>

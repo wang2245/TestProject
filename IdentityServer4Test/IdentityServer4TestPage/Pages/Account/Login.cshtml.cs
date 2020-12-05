@@ -69,10 +69,12 @@ namespace IdentityServer4TestPage.Pages.Account
                     }
 
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ViewData["LoginError"] = "InvalidLogin";
                     return Page();
                 }
                 else
                 {
+
                     return Redirect("~/");
                 }
             }

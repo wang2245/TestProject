@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.5.1",
+      "provider": "cdnjs",
+      "destination": "wwwroot/lib/jquery/dist/jquery_3.5.1"
+    },
+    {
+      "library": "twitter-bootstrap@4.5.3",
+      "destination": "wwwroot/lib/bootstrap453/dist/",
+      "provider": "cdnjs"
+    },
+    {
+      "library": "jquery.form@4.3.0",
+      "destination": "wwwroot/lib/jquery-form",
+      "provider": "cdnjs"
+    }
+  ]
+}

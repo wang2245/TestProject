@@ -18,6 +18,7 @@ namespace IdentityServer4TestPage
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
             {
+                new ApiScope(name:"party",displayName:"party")
             };
 
         public static IEnumerable<Client> Clients =>
@@ -25,11 +26,18 @@ namespace IdentityServer4TestPage
             {
                 new Client
                 {
-                    ClientId="",
-                    ClientSecrets={ new Secret("".Sha256())},
+                    ClientId="UserManagement",
+                    ClientSecrets={ new Secret("vueJsWebApp".Sha256())},
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedScopes={ ""}
+                },
+                new Client
+                {
+                    ClientId="WebApp",
+                    ClientSecrets={ new Secret("WebAppByElementUI".Sha256())},
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     AllowedScopes={ ""}
                 }
-            };
+            };        
     }
 }
